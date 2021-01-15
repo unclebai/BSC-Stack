@@ -1,5 +1,14 @@
 # Open Source BSC Stack [WIP!]
 
+The goal of this page is to provide the current status of the open-source Binance Smart Chain Tech  Stack and highlight the potential interesting projects that are most demanded by the BSC community and ecosystem.  
+
+## :clipboard: About 
+Binance Smart Chain is an Ethereum EVM 100% compatible blockchain, and is very good at decentralized application (Dapp) development within many possible verticals including DeFi, NFT, Gaming, and many others.
+
+To get a better understanding of the current BSC landscope, we divide each of the layers into the various components which we feel are most important. We then highlight some of the existing projects as well as **some potentially interesting** projects that we would like to fund by Binance Accelerator Funds. If you see a component with 0 or 1 existing projects then it's likely that we would consider grant support in this area. By describing our areas of priority in detail we do not wish to preclude grant applications that address different areas that we may not have thought of. We would like to fund all projects that bring value to the ecosystem. 
+
+This is a living document and we are relying on our community to contribute to this and help maintain it. Please feel free to make edits and additions via pull requests. 
+
 ## :bookmark_tabs: Layers of BSC Stack
 
 In the below sections you can find a list of different layers of the BSC Stack. 
@@ -19,7 +28,7 @@ In the below sections you can find a list of different layers of the BSC Stack.
 | Validator Dashboards | [BSCScan](https://bscscan.com/validatorset/), [BSC-Staking](https://www.binance.org/en/staking)
 | Governance Dashboards | | UI for BSC proposal/vote
 
-### :wrench: Infrastructure
+### :factory: Infrastructure
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 |API/Node access| [Ankr](https://www.ankr.com/),[NowNodes](https://nownodes.io/blog/binance-smart-chain-an-introduction),
@@ -47,25 +56,29 @@ In the below sections you can find a list of different layers of the BSC Stack.
 
 Goto [BSC Developer Ecosystem](https://github.com/binance-chain/bsc-develop-ecosystem) to navigate the full list. 
 
+### :convenience_store: Dapps infra
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+| Data Analytics && Visualization| [BSC.NEWS](https://www.bsc.news/),[DappRadar](https://dappradar.com/rankings/protocol/binance-smart-chain),[dapp.com](https://www.dapp.com/search_product?chain=BSC),[CMC](https://coinmarketcap.com/yield-farming/),[dapp.review](https://dapp.review/explore/bsc),[DefiStation](https://www.defistation.io/),[BitQuery](https://bitquery.io/),[PARSIQ](https://www.parsiq.io/)
+| Oracle | [Band Protocol](https://bandprotocol.com/), [ChainLink](https://chain.link/), [Sphinx](https://m.sphinx.finance/)
+| File Storage, Cloud | |
+| Cross Chain Bridges | [Binance Bridge](https://www.binance.org/en/bridge), [AnySwap](https://anyswap.exchange/dashboard), [renVM](https://renproject.io/), [NerveNetwork](https://nerve.network/), [JellySwap](https://jelly.market/), [PolyNetwork](https://www.poly.network/) | Decentralized, trustless, Open Access| 
+| Randomness | | Trusless, Decentralized Randomness solution
+| Licensing |
+| Computation | 
+| IoT | |
 
 ### :link: Dapps
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Scalable Transactions | | roll-ups, DAG-based consensus mechanisms, side chains |
-| Cross Chain Bridges | [Binance Bridge](https://www.binance.org/en/bridge), [AnySwap](https://anyswap.exchange/dashboard), [renVM](https://renproject.io/), [NerveNetwork](https://nerve.network/), [JellySwap](https://jelly.market/), [PolyNetwork](https://www.poly.network/) | Decentralized, trustless, Open Access| 
 | ZKP |  | [zkswap](https://zks.org/), [loopring](https://loopring.org/#/)
-| Oracle | [Band Protocol](https://bandprotocol.com/), [ChainLink](https://chain.link/), [Sphinx](https://m.sphinx.finance/)
 | Identity/DID | [Ontology](https://ont.io/) | [Blockpass](https://blockpass.org/), [Bloom](https://bloom.co/), [Civic](https://www.civic.com/)
-| IoT | |
 | Social Networking | [prometeus](https://prometeus.io/)| 
 | Governance/DAO| [snapshot](https://snapshot.page/) [KOGE](https://www.bnb48.club)| [Aragon](https://aragon.org/), [DaoStack](https://daostack.io/)
-| File Storage, Cloud | |
 | Gaming | [RocketGame](https://rocketgame.vip/), [BambooSwap](https://bambooswap.org/), [Blink](https://blink.wink.org/), [Battle Pets](https://www.battlepets.finance/), [Arkane](https://arkane.network/), Curvegrid
-| Computation | 
 | NFT/Collectibles| [Alpaca.City](https://alpaca.city/), [Juggernaut JGN](https://jgndefi.com/), [Thugs.Fi](http://thugs.fi/), [Dego](https://dego.finance/), [NFTForGood.org](NFTForGood.org), [Bounce](https://bounce.finance/), [Arkane](https://arkane.network/), Curvegrid, ATTN| [Knownorigin](https://knownorigin.io/), [Rarible](https://rarible.com/), (Opensea)[https://opensea.io/]
-| Randomness | | Trusless, Decentralized Randomness solution
-| Licensing |
 | Community & Fans | Realy, [Chilz](https://cryptologos.cc/chiliz)
 | BTC | Binance BTC, [renBTC](https://renproject.io/), [anyBTC](https://anyswap.exchange/dashboard)|
 | Stablecoins | BUSD, [VAI](https://venus.io/), [QIAN](https://bsc.qian.finance/qian/home), [Ditto](https://ditto.money/), [bDollar](bdollar.fi)
@@ -76,9 +89,6 @@ Goto [BSC Developer Ecosystem](https://github.com/binance-chain/bsc-develop-ecos
 | Derivatives | [Hedget](https://www.hedget.com/), [Mettalex](https://mettalex.com/), [Injective Protocol](https://injectiveprotocol.com/)| [Hegic](https://www.hegic.co/), [FinNexus Options](https://options.finnexus.io/)
 | Payment | [SWFT](https://www.swft.pro/zh-pc/#/home), [MultiSender](https://multisender.app/) | [Celer Network](https://www.celer.network/), [Connext](https://connext.network/)
 | Asset Tokenization | | [Harbor](https://harbor.com/), [Neufund](https://neufund.org/)
-| Data Analytics && Visualization| [BSC.NEWS](https://www.bsc.news/),[DappRadar](https://dappradar.com/rankings/protocol/binance-smart-chain),[dapp.com](https://www.dapp.com/search_product?chain=BSC),[CMC](https://coinmarketcap.com/yield-farming/),[dapp.review](https://dapp.review/explore/bsc),[DefiStation](https://www.defistation.io/),[BitQuery](https://bitquery.io/),[PARSIQ](https://www.parsiq.io/)
-
-
 
 ### :black_circle: Host
 
