@@ -24,7 +24,7 @@ In the below sections you can find a list of different layers of the BSC Stack.
 | CLI Wallet | [geth](https://github.com/binance-chain/bsc), [Seth](https://github.com/dapphub/dapptools/tree/master/src/seth)
 | Multisignature Wallets| [MultiSigWallet](https://github.com/gnosis/MultiSigWallet) | gnosis
 | Hardware Wallets | [Ledger](https://www.ledger.com/ethereum-wallet), [trezor](https://trezor.io/)
-| Block Explorers | [BSCScan](hhttps://bscscan.com/), [BitQuery](https://explorer.bitquery.io/bsc)
+| Block Explorers | [BSCScan](https://bscscan.com/), [BitQuery](https://explorer.bitquery.io/bsc)
 | Validator Dashboards | [BSCScan](https://bscscan.com/validatorset/), [BSC-Staking](https://www.binance.org/en/staking)
 | Governance Dashboards | | UI for BSC proposal/vote
 
